@@ -16,4 +16,7 @@ l = [41, 44, 46, 46, 47, 47, 48, 48, 49, 51, 52, 53, 53, 53, 53, 55, 55, 55,
      109, 110, 110, 113, 113, 115, 116, 118, 119, 121]
 
 sns.distplot(l, kde=True, rug=False)
-plt.show()
+#plt.show()
+
+data = pd.read_csv('https://github.com/wutichai2/Data-analytics/blob/master/Players/FullData.csv')
+print(data)
